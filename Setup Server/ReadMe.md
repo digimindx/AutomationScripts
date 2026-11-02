@@ -12,7 +12,7 @@ An enterprise-ready **Bash Automation Script** designed for Linux system adminis
 ## 🌐 Language Options / خيارات اللغة
 
 - [English](#-english-documentation)
-- [اللغة العربية](#-التوثيق-باللغة-العربية)
+- [اللغة العربية](##-التوثيق-باللغة-العربية)
 
 ---
 
