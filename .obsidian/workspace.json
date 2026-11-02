@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backup & Upload to AWS/ReadMe.md",
+                "file": "Setup Server/ReadMe.md",
                 "mode": "source",
                 "source": false
               },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backup & Upload to AWS/ReadMe.md",
+                "file": "Setup Server/ReadMe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backup & Upload to AWS/ReadMe.md",
+                "file": "Setup Server/ReadMe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backup & Upload to AWS/ReadMe.md",
+                "file": "Setup Server/ReadMe.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,6 +190,11 @@
   },
   "active": "b270113d033a2a1d",
   "lastOpenFiles": [
+    "Setup Server/setup_server.sh",
+    "Backup & Upload to AWS/ReadMe.md",
+    "Setup Server/ReadMe.md",
+    "Setup Server/script.sh",
+    "Setup Server",
     "Backup & Upload to AWS/ReadMe (1).md"
   ]
 }
