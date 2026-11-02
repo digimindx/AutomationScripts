@@ -157,14 +157,14 @@ Upon successful execution, the script appends output formatted as follows:
 
 ### 1. استنساخ المستودع (Clone)
 
-```
+```bash
 git clone https://github.com/your-username/mysql-s3-backup-automation.git
 cd mysql-s3-backup-automation
 ```
 
 ### 2. منح صلاحية التنفيذ للسكريبت
 
-```
+```bash
 chmod +x backup.sh
 ```
 
@@ -172,7 +172,7 @@ chmod +x backup.sh
 
 افتح ملف `backup.sh` في أي محرر نصوص وقم بتحديث المتغيرات لتناسب بيانات خادمك:
 
-```
+```bash
 # إعدادات قاعدة البيانات
 DB_NAME="your_database_name"
 DB_USER="your_database_user"
@@ -192,7 +192,7 @@ RETENTION_DAYS=30
 
 يمكنك تجربة السكريبت يدوياً للتأكد من الاتصال بقاعدة البيانات ونجاح الرفع السحابي:
 
-```
+```bash
 ./backup.sh
 ```
 
@@ -202,15 +202,15 @@ RETENTION_DAYS=30
 
 1. افتح جدول المهام للتعديل:
     
-    ```
+    ```bash
     crontab -e
     ```
     
 2. أضف السطر التالي في نهاية الملف:
     
-    ```
+```bash
     0 0 * * * /bin/bash /path/to/mysql-s3-backup-automation/backup.sh >> /var/log/mysql_backup.log 2>&1
-    ```
+```
     
 
 ## مثال لمخرجات ملف السجل (Log Example)

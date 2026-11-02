@@ -59,9 +59,7 @@ sudo ./setup_server.sh
 
 #### Option B: One-Liner Direct Execution
 
-Bash
-
-```
+```bash
 curl -sSL [https://raw.githubusercontent.com/digimindx/server-provisioning-script/main/setup_server.sh](https://raw.githubusercontent.com/digimindx/server-provisioning-script/main/setup_server.sh) | sudo bash
 ```
 
@@ -69,11 +67,7 @@ curl -sSL [https://raw.githubusercontent.com/digimindx/server-provisioning-scrip
 
 You can customize the script parameters inside `setup_server.sh` before running:
 
-  
-
-Bash
-
-```
+```bash
 NEW_USER="devops"                        # Administrative user name
 SSH_PUBLIC_KEY="ssh-rsa AAAAB3NzaC1..." # Paste your public SSH key string here
 ```
@@ -84,46 +78,22 @@ SSH_PUBLIC_KEY="ssh-rsa AAAAB3NzaC1..." # Paste your public SSH key string here
 
 1. **تحديث النظام:** تحديث تلقائي للحزم والبرامج المسبقة التثبيت.
     
-      
-    
-2. **الحماية والتعزيز الأمني (Hardening):**
-    
-      
+2. **الحماية والتعزيز الأمني (Hardening):**  
     - **جدار الحماية (UFW):** غلق الترددات غير المصرح بها والسماح فقط بـ (SSH/22, HTTP/80, HTTPS/443).
-        
-          
-        
     - **حماية من هجمات الاختراق (Fail2ban):** تفعيل حظر تلقائي لمحاولات تسجيل الدخول العشوائية عبر SSH.
         
-          
-        
 3. **إدارة المستخدمين ومفاتيح SSH:**
-    
-      
     - إنشاء مستخدم جديد وتزويده بصلاحيات `sudo`.
-        
-          
-        
     - إعداد وإضافة مفاتيح الدخول المشفرة (SSH Keys) أوتوماتيكياً.
-        
-          
         
 4. **تثبيت بيئة التطوير والتشغيل:**
     
       
     - **Docker & Docker Compose:** التثبيت المباشر من المستودع الرسمي وضبط صلاحيات المستخدم.
-        
-          
-        
     - **Nginx:** تثبيت وتفعيل خادم الويب للعرض الفوري.
-        
-          
-        
+
 5. **سجلات تنفيذ واضحة:** مخرجات ملونة في التيرمينال لتسهيل المتابعة وتشخيص أي خطأ.
     
-      
-    
-
 ### 🚀 طريقة التشغيل المباشرة
 
 
