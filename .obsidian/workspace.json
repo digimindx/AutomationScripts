@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup Server/ReadMe.md",
+                "file": "Health Monitor/ReadMe.md",
                 "mode": "source",
                 "source": false
               },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Setup Server/ReadMe.md",
+                "file": "Health Monitor/ReadMe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Setup Server/ReadMe.md",
+                "file": "Health Monitor/ReadMe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Setup Server/ReadMe.md",
+                "file": "Health Monitor/ReadMe.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -205,9 +205,12 @@
   },
   "active": "ec84417f009b9ef9",
   "lastOpenFiles": [
+    "Setup Server/ReadMe.md",
+    "Health Monitor/ReadMe.md",
+    "Health Monitor/monitor_health.py",
+    "Health Monitor",
     "Setup Server/setup_server.sh",
     "Backup & Upload to AWS/ReadMe.md",
-    "Setup Server/ReadMe.md",
     "Setup Server/script.sh",
     "Setup Server",
     "Backup & Upload to AWS/ReadMe (1).md"
