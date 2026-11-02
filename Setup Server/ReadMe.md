@@ -11,12 +11,12 @@ An enterprise-ready **Bash Automation Script** designed for Linux system adminis
 
 ## 🌐 Language Options / خيارات اللغة
 
-- [English Documentation](#-english-documentation)
-- [التوثيق باللغة العربية](#-التوثيق-باللغة-العربية)
+- [English](#-english-documentation)
+- [اللغة العربية](#-التوثيق-باللغة-العربية)
 
 ---
 
-## 🇬🇧 English Documentation
+## English Documentation
 
 ### 🌟 Key Features
 
@@ -78,7 +78,7 @@ NEW_USER="devops"                        # Administrative user name
 SSH_PUBLIC_KEY="ssh-rsa AAAAB3NzaC1..." # Paste your public SSH key string here
 ```
 
-## 🇸🇦 التوثيق باللغة العربية
+## التوثيق باللغة العربية
 
 ### 🌟 المميزات الأساسية
 
@@ -143,13 +143,5 @@ sudo ./setup_server.sh
 ## 👨‍💻 Author & Connect
 
 **Abdelazeez Mabrouk**
-
-  
-
 _Senior DevOps & Cloud Infrastructure Engineer | Tech Lead_
 
-  
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
