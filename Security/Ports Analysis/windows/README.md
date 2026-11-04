@@ -1,6 +1,6 @@
 # Port Traffic Monitor
 
-`analyze_ports.sh` is a Bash script for Linux that lists open/listening ports, identifies the owning process or `systemd` service, and estimates TCP traffic per local port over a selected sampling interval.
+`analyze_ports.sh` is a Bash script for Linux that lists open/listening ports, identifies the owning process or systemd service, and estimates TCP traffic per local port over a selected sampling interval.
 
 ## Requirements
 
@@ -11,10 +11,10 @@
 
 ## Installation
 
-Save the script as `port-traffic.sh`, then make it executable:
+Save the script as `analyze_ports.sh`, then make it executable:
 
 ```bash
-chmod +x port-traffic.sh
+chmod +x analyze_ports.sh
 ```
 
 ## Usage
@@ -22,13 +22,13 @@ chmod +x port-traffic.sh
 Run with the default five-second measurement interval:
 
 ```bash
-sudo ./port-traffic.sh
+sudo ./analyze_ports.sh
 ```
 
 Or provide the interval in seconds:
 
 ```bash
-sudo ./port-traffic.sh 10
+sudo ./analyze_ports.sh 10
 ```
 
 ## Output
@@ -60,7 +60,7 @@ The script reads TCP kernel counters through `ss`, takes one snapshot, waits for
 
 # مراقب حركة المنافذ
 
-سكريبت `analyze_ports.sh` هو سكربت Bash يعمل على لينكس لعرض المنافذ المفتوحة أو التي في وضع المستمع، وتحديد العملية أو خدمة `systemd` المالكة لها، وتقدير حركة بيانات TCP لكل منفذ محلي خلال فترة قياس تختارها.
+`analyze_ports.sh` هو سكربت Bash يعمل على لينكس لعرض المنافذ المفتوحة أو المستمعة، وتحديد العملية أو خدمة systemd المالكة لها، وتقدير حركة بيانات TCP لكل منفذ محلي خلال فترة قياس تختارها.
 
 ## المتطلبات
 
@@ -71,10 +71,10 @@ The script reads TCP kernel counters through `ss`, takes one snapshot, waits for
 
 ## التثبيت
 
-احفظ السكربت باسم `port-traffic.sh` ثم امنحه صلاحية التنفيذ:
+احفظ السكربت باسم `analyze_ports.sh` ثم امنحه صلاحية التنفيذ:
 
 ```bash
-chmod +x port-traffic.sh
+chmod +x analyze_ports.sh
 ```
 
 ## التشغيل
@@ -82,13 +82,13 @@ chmod +x port-traffic.sh
 التشغيل بفترة قياس افتراضية مقدارها خمس ثوانٍ:
 
 ```bash
-sudo ./port-traffic.sh
+sudo ./analyze_ports.sh
 ```
 
 أو تحديد فترة القياس بالثواني:
 
 ```bash
-sudo ./port-traffic.sh 10
+sudo ./analyze_ports.sh 10
 ```
 
 ## المخرجات
