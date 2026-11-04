@@ -1,6 +1,6 @@
 # Port Traffic Monitor
 
-`port-traffic.sh` is a Bash script for Linux that lists open/listening ports, identifies the owning process or systemd service, and estimates TCP traffic per local port over a selected sampling interval.
+analyze_ports.sh` is a Bash script for Linux that lists open/listening ports, identifies the owning process or systemd service, and estimates TCP traffic per local port over a selected sampling interval.
 
 ## Requirements
 
@@ -60,7 +60,7 @@ The script reads TCP kernel counters through `ss`, takes one snapshot, waits for
 
 # مراقب حركة المنافذ
 
-`port-traffic.sh` هو سكربت Bash يعمل على لينكس لعرض المنافذ المفتوحة أو المستمعة، وتحديد العملية أو خدمة systemd المالكة لها، وتقدير حركة بيانات TCP لكل منفذ محلي خلال فترة قياس تختارها.
+`analyze_ports.sh` هو سكربت Bash يعمل على لينكس لعرض المنافذ المفتوحة أو المستمعة، وتحديد العملية أو خدمة systemd المالكة لها، وتقدير حركة بيانات TCP لكل منفذ محلي خلال فترة قياس تختارها.
 
 ## المتطلبات
 
