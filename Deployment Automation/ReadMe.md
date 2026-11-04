@@ -1,9 +1,8 @@
 # 🚀 Automated Application Deployment Script (Zero Downtime)
 
 ![Bash Shell](https://img.shields.io/badge/Shell_Script-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![CI/CD](https://img.shields.io/badge/Deployment-Zero%20Downtime-007ACC?style=for-the-badge&logo=git&logoColor=white)
 ![Automation](https://img.shields.io/badge/Stack-PHP%2FNode.js-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
 
 A streamlined, robust **Bash Deployment Script** designed for lightweight CI/CD pipelines. It automates the code synchronization process (`git pull`), installs application dependencies (`Composer` & `npm`), executes framework caching/migrations, and gracefully reloads web services to guarantee **Zero Downtime** updates.
 
@@ -74,9 +73,7 @@ _Senior DevOps & Cloud Infrastructure Engineer | Tech Lead_
 # 🚀 سكريبت أتمتة نشر وتحديث التطبيقات بدون انقطاع (Zero Downtime Deployment)
 
 ![Bash Shell](https://img.shields.io/badge/Shell_Script-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![CI/CD](https://img.shields.io/badge/Deployment-Zero%20Downtime-007ACC?style=for-the-badge&logo=git&logoColor=white)
 ![Automation](https://img.shields.io/badge/Stack-PHP%2FNode.js-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 سكريبت أتمتة متطور ومبسط مكتوب بلغة **Bash** لأغراض الـ CI/CD الخفيفة، مصمم لمهندسي الـ DevOps ومطوري الباك إند. يقوم السكريبت بسحب أحدث الأكواد البرمجية مباشرة من مستودع Git، تثبيت التحديثات البرمجية (`Composer` و `npm`)، تحديث قواعد البيانات وترميز الكاش، وإعادة تحميل خادم الويب بمرونة تامة دون أي توقف للخدمة (**Zero Downtime**).
 

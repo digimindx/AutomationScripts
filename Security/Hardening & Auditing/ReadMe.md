@@ -3,7 +3,6 @@
 ![Python 3](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Security Hardening](https://img.shields.io/badge/Security-Fail2ban%20%26%20Audit-red?style=for-the-badge&logo=linux&logoColor=white)
 ![Automation](https://img.shields.io/badge/Execution-Cron%20Scheduled-4EAA25?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 An automated **Python Security Auditing & Hardening Script** designed for Linux system administrators and DevSecOps engineers. It audits permission misconfigurations on critical system files, inspects authentication logs for SSH brute-force attempts, and deploys automated Fail2ban mitigation rules to block malicious IPs.
 
@@ -59,7 +58,6 @@ _Senior DevOps & Cloud Infrastructure Engineer | Tech Lead_
 ![Python 3](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Security Hardening](https://img.shields.io/badge/Security-Fail2ban%20%26%20Audit-red?style=for-the-badge&logo=linux&logoColor=white)
 ![Automation](https://img.shields.io/badge/Execution-Cron%20Scheduled-4EAA25?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 سكريبت أتمتة مخصص لمهندسي الـ DevSecOps ومسؤولي الأنظمة لفحص وتأمين خوادم لينكس تلقائياً. يقوم السكريبت بتدقيق صلاحيات الملفات الحساسة للنظام، فحص وتحليل سجلات المحاولات الفاشلة لتسجيل الدخول عبر SSH، وتثبيت وتفعيل قواعد حظر أوتوماتيكية عبر `Fail2ban` لحماية السيرفر من هجمات التخمين والاختراق (Brute-Force).
 

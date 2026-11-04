@@ -3,7 +3,6 @@
 ![Bash Shell](https://img.shields.io/badge/Shell_Script-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Docker Ready](https://img.shields.io/badge/Includes-Docker%20Prune-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Automation](https://img.shields.io/badge/Execution-Cron%20Scheduled-4EAA25?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 An automated **Bash Cleanup Script** engineered for Linux servers to prevent disk space exhaustion. It automatically purges system log files older than 7 days, removes unused Docker containers, dangling images, and unreferenced volumes, clears package manager caches, and reports liberated storage space.
 
@@ -64,7 +63,6 @@ _Senior DevOps & Cloud Infrastructure Engineer | Tech Lead_
 ![Bash Shell](https://img.shields.io/badge/Shell_Script-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Docker Ready](https://img.shields.io/badge/Includes-Docker%20Prune-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Automation](https://img.shields.io/badge/Execution-Cron%20Scheduled-4EAA25?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 سكريبت أتمتة مخصص لمهندسي الـ DevOps ومسؤولي الأنظمة لمنع امتلاء مساحة التخزين (Disk Space) على خوادم لينكس. يقوم السكريبت بتنظيف وتفريغ ملفات السجلات (Logs) القديمة التي يتجاوز عمرها 7 أيام، حذف حاويات وصور دوكر (Docker Containers & Images) غير المستخدمة، تفريغ ذاكرة التخزين المؤقت للحزم، وحساب المساحة المحررة بدقة.
 
